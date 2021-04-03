@@ -10,6 +10,7 @@ export default function App() {
   const width = Dimensions.get('window').width;
   const height = Dimensions.get('window').height;
   console.log(width, 'and ', height)
+  console.log('Swarnab')
   return (
     <View style={styles.container}>
       {/* <View style={{backgroundColor: "lightgreen",width ,height:height - 250,borderBottomRightRadius:100}}>
